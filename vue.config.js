@@ -13,7 +13,9 @@ module.exports = {
 		public: '127.0.0.1:8080',
 		proxy: {
 			'/': {
-				target: process.env.API_URL ? process.env.API_URL : 'https://demo.directus.io/',
+				target: process.env.API_URL
+					? 'https://worksdomain.nl/public/'
+					: 'https://demo.directus.io/',
 				changeOrigin: true
 			}
 		}
