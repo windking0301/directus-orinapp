@@ -6,7 +6,7 @@
   "author": "Rijk van Zanten <rijk@rngr.org>",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "./node_modules/.bin/vue-cli-service build",
+    "build": "vue-cli-service build",
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "fix": "prettier --write \"src/**/*.{js,vue,ts}\"",
@@ -55,9 +55,7 @@
     "vue-the-mask": "^0.11.1",
     "vuedraggable": "^2.23.2",
     "vuex": "^3.1.2",
-    "vuex-persistedstate": "^2.7.0"
-  },
-  "devDependencies": {
+    "vuex-persistedstate": "^2.7.0",
     "@babel/core": "^7.8.3",
     "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "@storybook/addon-actions": "^5.3.3",
@@ -97,7 +95,7 @@
     "vue-template-compiler": "^2.6.10",
     "vuepress": "^1.2.0",
     "webpack-merge": "^4.2.2"
-  },
+  }, 
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
