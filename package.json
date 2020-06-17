@@ -6,7 +6,7 @@
   "author": "Rijk van Zanten <rijk@rngr.org>",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "cross-env NODE_ENV=prodcution vue-cli-service build",
+    "build": "./node_modules/.bin/vue-cli-service build",
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "fix": "prettier --write \"src/**/*.{js,vue,ts}\"",
