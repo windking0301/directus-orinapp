@@ -6,7 +6,7 @@ if (!process.env.API_URL && process.env.NODE_ENV === 'development') {
 
 module.exports = {
 	lintOnSave: false,
-	publicPath: process.env.NODE_ENV === 'production' ? '' : '/admin/',
+	publicPath: process.env.NODE_ENV === 'production' ? '' : '',
 
 	devServer: {
 		allowedHosts: ['localhost', '.gitpod.io'],
